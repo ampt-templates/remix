@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../node_modules/@remix-run/dev/dist/config/defaults/entry.dev.ts"],
+  "sourcesContent": ["// @ts-nocheck\n/* eslint-disable */\n\nexport default () => {\n  import(\"react\");\n  import(\"react/jsx-dev-runtime\");\n  import(\"react/jsx-runtime\");\n  import(\"react-dom\");\n  import(\"react-dom/client\").catch();\n  import(\"react-refresh/runtime\");\n  import(\"@remix-run/react\");\n  import(\"remix:hmr\");\n};\n"],
+  "mappings": ";;;AAGA,IAAO,oBAAQ,MAAM;AACnB,SAAO,4BAAO;AACd,SAAO,sCAAuB;AAC9B,SAAO,kCAAmB;AAC1B,SAAO,gCAAW;AAClB,SAAO,6BAAkB,EAAE,MAAM;AACjC,SAAO,8BAAuB;AAC9B,SAAO,0BAAkB;AACzB,SAAO,gCAAW;AACpB;",
+  "names": []
+}
