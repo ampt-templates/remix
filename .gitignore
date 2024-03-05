@@ -5,3 +5,6 @@ node_modules
 /public/build
 /.ampt
 .env
+.amptrc
+.ampt*rc
+.ampt/

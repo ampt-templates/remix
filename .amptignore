@@ -2,4 +2,7 @@
 .gitignore
 README.md
 tsconfig.json
-.cache
+.cache.amptrc
+.ampt*rc
+.devcontainer.json
+.gitpod.yml

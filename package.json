@@ -7,10 +7,12 @@
     "ampt:build": "remix build",
     "ampt:dev": "remix dev",
     "start": "remix-serve build",
-    "typecheck": "tsc"
+    "typecheck": "tsc",
+    "gitpod:ampt": "./node_modules/.bin/ampt"
   },
   "ampt": {
-    "app": "remix"
+    "app": "",
+    "org": ""
   },
   "dependencies": {
     "@ampt/remix": "^1.0.0",
@@ -32,8 +34,5 @@
   },
   "engines": {
     "node": ">=14.0.0"
-  },
-  "files": [
-    "*"
-  ]
+  }
 }
